@@ -20,3 +20,9 @@ npx create-expo-app -e with-router
 - [Expo Router: Docs](https://expo.github.io/router)
 - [Expo Router: Repo](https://github.com/expo/router)
 app link---https://expo.dev/@rhunor/react_native_jobs?serviceType=classic&distribution=expo-go
+<p align="center">
+  <img src="https://imgur.com/eyA81oJ" alt="Alt text" width="400">
+</p>
+<p align="center">
+  <img src="[https://imgur.com/eyA81oJ](https://imgur.com/m4MB6m3)" alt="Alt text" width="400">
+</p>
