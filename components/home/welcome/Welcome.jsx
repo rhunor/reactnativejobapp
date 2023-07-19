@@ -22,7 +22,7 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
     <View>
       <View style={styles.container}>
         <Text style={styles.userName}>Hello Rhunor</Text>
-        <Text style={styles.welcomeMessage}>Find your Thing in your app </Text>
+        <Text style={styles.welcomeMessage}>Find yourself a job</Text>
       </View>
 
       <View style={styles.searchContainer}>
@@ -31,11 +31,11 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
             style={styles.searchInput}
             value={searchTerm}
             onChangeText={(text) => setSearchTerm(text)}
-            placeholder='Whats The issue?'
+            placeholder='What are you looking for?'
           />
         </View>
 
-        <TouchableOpacity style={styles.searchBtn} onPress={()=>{}}>
+        <TouchableOpacity style={styles.searchBtn} onPress={handleClick}>
           <Image
             source={icons.search}
             resizeMode='contain'
